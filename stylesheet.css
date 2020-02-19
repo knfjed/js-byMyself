@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+}
+
+li:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+
+img {
+  width: 100%;
+}
