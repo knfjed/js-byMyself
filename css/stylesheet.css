@@ -1,0 +1,41 @@
+.title {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+ul li {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  text-align: center;
+  user-select: none;
+}
+
+li:hover {
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+
+#main {
+  width: 100%;
+}
+
+.thumbnails {
+  /* display: grid;
+  grid-template-columns: repeat(2, 86px); */
+  width: 100%;
+  height: 86px;
+  opacity: 0.8;
+}
+
+.thumbnails img {
+  height: 80px;
+  width: 100%;
+}

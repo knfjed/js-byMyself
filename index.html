@@ -3,21 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
     <title>TOKYO</title>
   </head>
   <body>
-    <ul>
-      <li>GINZA</li>
-      <li>UENO</li>
-      <li>SINJYUKU</li>
-      <li>NIHONBASHI</li>
-      <li>MARUNOUCHI</li>
-      <li>SHIBUYA</li>
-    </ul>
-
+    <header>
+      <h1 class="title">TOKYO</h1>
+      <ul class="location">
+        <li>GINZA</li>
+        <li>UENO</li>
+        <li>SINJYUKU</li>
+        <li>NIHONBASHI</li>
+        <li>MARUNOUCHI</li>
+        <li>SHIBUYA</li>
+      </ul>
+    </header>
     <section class="ABOUT">
-      <img src="images/tokyo.jpg" />
+      <div id="slideshow">
+        <img id="main" />
+        <nav>
+          <ul>
+            <li id="play">play</li>
+            <li id="prev">&lt;</li>
+            <li id="next">&gt;</li>
+          </ul>
+        </nav>
+
+        <ul class="thumbnails"></ul>
+      </div>
       <p>
         Tokyo, one of the world's largest cities, offers a uniquely eclectic mix
         of traditional and contemporary attractions. Please enjoy and discover
@@ -26,6 +39,6 @@
       </p>
     </section>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
